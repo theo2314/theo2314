@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: #1E1E2A;
+}
+
+/* HEADER */
+.title {
+    background-color: #60E1E0;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*  SUBTITLE */
+
+.container {
+    background-color: #60E1E0;
+    background-image: url(/imagens/Theodoro.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+
+.subtitle h2 {
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.subtitle p {
+    margin-left: 15px;
+    display: block;
+    padding: 3px;
+}
+
+.subtitle ul li {
+    padding: 5px;
+    list-style-type: decimal;
+}
+/* FOOTER */
+
+footer {
+    padding: 100px 0;
+    background-color: #60E1E0;
+    color: #fff;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    resize: vertical;
+}
+
+footer .detail {
+    font-weight: bold;
+} 
+
+.btn {
+    border: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 14px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: fixed;
+    left: 1295px;
+    bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-image: url(/imagens/arrow-090-medium.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    border-radius: .80rem;
+    height: 30px;
+    width: 50px;
+    background-color: lightblue;
+}
+
